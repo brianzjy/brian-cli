@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 //表明这是一个可执行的应用
+//___todo___项目初始化的时候，如果不是空目录，提示用户是否初始化
+//___todo___项目没写init <name> 取当前名称 用于default name
 
 const program = require('commander');
 const inquirer = require('inquirer');

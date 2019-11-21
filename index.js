@@ -61,6 +61,7 @@ program
                 case 'pc':
                   download(
                     //ssh https
+                    // 'https://github.com:brianzjy/blog#master',
                     'direct:https://github.com/brianzjy/blog#master',
                     name,
                     { clone: true },
